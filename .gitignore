@@ -1,0 +1,7 @@
+# Build outputs
+build/
+*.exe
+*.o
+
+# Downloaded VS Code toolchains
+.vscode/oracleJdk-26/
