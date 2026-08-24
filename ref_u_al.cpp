@@ -2,13 +2,11 @@
 #include <vector>
 
 using namespace std;
+
+void changeA(int * ptr){
+    *ptr = 20;
+}
 int main(){
     int a = 10;
-    int* ptr = &a;
-
-    int **Parptr = &ptr;
-    cout << &ptr << endl;
-    cout << Parptr <<endl;
-
     return 0;
 }
